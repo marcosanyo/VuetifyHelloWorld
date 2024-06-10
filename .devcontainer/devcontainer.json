@@ -1,0 +1,21 @@
+{
+    "name": "Vuetify Development Environment",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash"
+        },
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint",
+          "octref.vetur",
+          "Vue.volar"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install",
+    "remoteUser": "node",
+    "forwardPorts": [8085]
+  }
+  
